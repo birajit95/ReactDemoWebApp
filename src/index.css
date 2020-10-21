@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,300&display=swap');
+
+*{
+  font-family: 'Mulish';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #f8f9fa!important;
+}
+
+
+
+.navbar-brand{
+  font-size: 1.9rem !important;
+  color:  #3498db !important;
+  font-weight: 800;
+
+}
+
+.navbar a{
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  
+}
+
+.navbar a:hover{
+  color: #3498db !important;
+}
+
+.menu_active
+{
+  color: #3498db !important;
+  border-bottom: 1px solid #3498db;
+}
+
+.brand-name{
+  font-size: 1.9rem !important;
+  color:  #3498db !important;
+  font-weight: 800;
+}
+.btn-get-started{
+  display: inline-block;
+  /* width: 110px; */
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 0;
+  border:1px solid #3498db;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 2px #3498db;
+  font-size: 1rem;
+  font-weight: 800;
+  text-align: center;
+  transition: all .5s;
+  margin-bottom: 100px;
+}
+.btn-get-started:hover{
+  background:#3498db;
+  color: white;
+  box-shadow: 5px 5px 10px 2px gray;
+
+}
+
+#header h2{
+  font-weight: 800;
+}
+#header h4{
+  font-weight: 300;
+  font-family:sans-serif
+}
+.header-img img{
+  /* max-height: 700px;
+  width: 600px; */
+}
+.animated{
+  animation: up-down 4s ease-in-out infinite alternate-reverse both ;
+}
+@keyframes up-down{
+  0%{
+    transform: translateY(50px);
+  }
+  100%{
+    transform: translateY(-40px);
+  }
+}
+
+
+.btn-primary{
+  background-color: white !important;
+  color: #3498db !important;
+  border: 1px solid #3498db !important;
+  box-shadow: 5px 5px 10px 2px #3498db;
+  transition: all .5s !important;
+  font-weight: 700 !important;
+
+}
+
+.btn-primary:hover{
+  background-color: #3498db !important;
+  color: white !important;
+  box-shadow: 5px 5px 10px 2px gray;
+
+}
+
+.card{
+  border: 1px solid #3498db !important;
+  box-shadow: 5px 5px 10px 1px #3498db;
+}
+
+::selection{
+  background-color: #3498db;
+  color: white;
+}
+
+.getInTouch{
+  color:#3498db !important;
+  text-transform: uppercase;
+}
+
+.form-control{
+  border:2px solid #3498db !important;
+}
+.form-label{
+  color: white !important;
+  font-weight: 700;
+}
+.bg-div{
+  background:linear-gradient(#3498db,transparent);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px 1px #3498db;
+
+}
